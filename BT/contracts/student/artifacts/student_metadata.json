@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "stud_id",
+						"type": "int256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "department",
+						"type": "string"
+					}
+				],
+				"name": "add_stud",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "stud_id",
+						"type": "int256"
+					}
+				],
+				"name": "getStudetn",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/student/student.sol": "student"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/student/student.sol": {
+			"keccak256": "0x094db91648700047397362d2bfe4d1dc4171a5fa0fe873e1e6168f1474e734f0",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://cfad9f64878ed5cb44cd5bfacaf25c98e70f4c18dfeaa0226bd73c6598adfc12",
+				"dweb:/ipfs/QmUYVdzque8qV8Gzrq2tCQG9NvCBhb5n2m7BRKjrkCLx4y"
+			]
+		}
+	},
+	"version": 1
+}
